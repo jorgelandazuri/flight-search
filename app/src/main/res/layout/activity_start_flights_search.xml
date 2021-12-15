@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_activity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:context="com.jalch.flightsearch.view.controller.StartFlightsSearchActivity">
+        <ImageView
+            android:id="@+id/screen_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0.4"
+            android:background="@color/white"
+            android:scaleType="fitXY"
+            android:src="@mipmap/london_ny_background" />
+
+        <TextView
+            android:id="@+id/tap_screen_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="60dp"
+            android:text="@string/tap_screen_search"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="22dp" />
+
+    </RelativeLayout>
+</FrameLayout>
+

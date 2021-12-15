@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Flight Search</string>
+    <string name="main_title">A week in New York from next monday?</string>
+    <string name="tap_screen_search">Tap the screen to find your way!</string>
+    <string name="search_button_title">Find deal</string>
+    <string name="sort_and_filters">SORT &amp; FILTERS</string>
+    <string name="via_agent_prefix">via</string>
+    <string name="static_origin_destination_location_title">London-New York</string>
+    <string name="direct">Direct</string>
+    <plurals name="stops">
+        <item quantity="one">%s stop</item>
+        <item quantity="other">%s strops</item>
+    </plurals>
+    <string name="loading_results">Loading results </string>
+    <string name="no_results">No results</string>
+    <plurals name="results">
+        <item quantity="one">%s result</item>
+        <item quantity="other">%s results</item>
+    </plurals>
+    <string name="error_message_clue"> This is a clue why %s.</string>
+    <string name="error_message_format">Something is wrong!%s Please try again</string>
+    <string name="static_search_country">UK</string>
+    <string name="static_search_currency">GBP</string>
+    <string name="static_search_locale">en-GB</string>
+    <string name="static_search_origin">LOND-sky</string>
+    <string name="static_search_destination">JFK-sky</string>
+    <string name="static_search_adults">1</string>
+    <string name="static_search_cabin_class">economy</string>
+    <string name="static_search_location_schema">iata</string>
+    <string name="static_search_date_format">yyyy-MM-dd</string>
+    <string name="static_search_date_format_title">MM-dd</string>
+</resources>

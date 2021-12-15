@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/margin_medium"
+    card_view:cardCornerRadius="5dp"
+    card_view:cardElevation="2dp">
+
+    <include
+        android:id="@+id/card_container"
+        layout="@layout/round_trip_itinerary_content_layout"
+        android:visibility="gone" />
+
+    <include
+        android:id="@+id/empty_itinerary_card"
+        layout="@layout/empty_card"
+        android:visibility="gone" />
+</androidx.cardview.widget.CardView>

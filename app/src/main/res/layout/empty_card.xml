@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/card_background"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/card_placeholder_height"
+    android:visibility="gone"
+    android:gravity="center"
+    tools:visibility="visible"
+    tools:showIn="@layout/itinerary_card_item">
+
+    <ImageView
+        android:alpha="0.5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_plane" />
+</LinearLayout>

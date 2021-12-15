@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/card_background"
+    android:orientation="vertical"
+    android:visibility="gone"
+    tools:showIn="@layout/itinerary_card_item"
+    tools:visibility="visible">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_large"
+        android:orientation="vertical">
+
+        <com.jalch.flightsearch.view.widget.CardLegDetailsWidget
+            android:id="@+id/outbound_leg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_x_large" />
+
+        <com.jalch.flightsearch.view.widget.CardLegDetailsWidget
+            android:id="@+id/inbound_leg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/grey_light" />
+
+    <com.jalch.flightsearch.view.widget.CardItineraryFooterWidget
+        android:id="@+id/card_footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

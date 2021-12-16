@@ -15,6 +15,7 @@
 - Butterknife for view binding.
 - Picasso for image loading.
 - Retrofit2 http client & Gson for Json parsing.
+- MVP and CLEAN design patterns followed. 
 - Unit testing with Mockito & JUnit.
 
 
